@@ -1,0 +1,229 @@
+.Textsec1Box{
+    display:flex;
+}
+.TextSec1Container{
+    /* background-color: antiquewhite; */
+    box-shadow: 0 3px 8px rgb(9, 9, 9);
+    margin: 1rem;
+    margin-top: 4rem;
+}
+.TextSec1Container h1{
+    font-family: cursive;
+    text-align: center;
+    margin-bottom: -2rem;
+    font-family:sans-serif;
+    margin-top: 2rem;
+}
+#im1{
+    height:26rem;
+    width: 50rem;
+    margin-left: 1rem;
+    margin-top: 1.4rem;
+}
+#im2{
+    height:26rem;
+    width: 50rem;
+    margin-left: -7rem;
+    margin-top: 2.6rem;
+}
+#im3{
+    height:27rem;
+    width: 50rem;
+    margin-left: -6rem;
+    margin-top: 1.4rem;
+    
+}
+#im4{
+    height:27rem;
+    width: 50rem;
+    margin-left: -16rem;
+    margin-top: .2rem;
+}
+.TextSec2Container{
+    margin: 1rem;
+    box-shadow: 0 3px 8px rgb(67, 63, 63);
+    padding: 2rem;
+}
+.TextSec2Container h1{
+    font-family: cursive;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family:sans-serif;
+}
+#im5{
+    height:16rem;
+    width: 14rem;
+    margin-left: 11rem;
+    margin-top: 1.4rem;
+}
+#im6{
+    height:16rem;
+    width: 14rem;
+    margin-left: 6rem;
+    margin-top: 1.4rem;
+}
+#im7{
+    height:16rem;
+    width: 14rem;
+    margin-left: 6rem;
+    margin-top: 1.4rem;
+    
+}
+#im8{
+    height:16rem;
+    width: 14rem;
+    margin-left: 6rem;
+    margin-top: 1.4rem;
+}
+@media screen and (max-width: 1443px) and (min-width: 760px){
+    .Textsec1Box{
+        display:flex;
+        flex-wrap: wrap;
+    
+    } 
+    .TextSec2Container{
+        margin-left: 10.5rem;
+        margin-right: 10rem;
+       width: 50rem;
+    }
+    .Textsec2Box{
+        display:flex;
+        flex-wrap: wrap;
+    
+    } 
+    .TextSec1Container{
+        margin-left: 10.5rem;
+        margin-right: 10rem;
+       width: 50rem;
+    }
+    #im1{
+        height:14rem;
+        width: 24rem;
+        margin-left: -1rem;
+        margin-top: 1rem;
+        padding: none;
+    }
+    #im2{
+        height:14rem;
+        width: 24rem;
+        margin-left: -1rem;
+        margin-top: 1rem;
+    }
+    #im3{
+        height:14rem;
+        width: 24rem;
+        margin-left: -1rem;
+        margin-top: 1rem;
+        
+    }
+    #im4{
+        height:14rem;
+        width: 24rem;
+        margin-left: -1rem;
+        margin-top: 1rem;
+    }
+    #im5{
+        height:12rem;
+        width: 10rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+    #im6{
+        height:12rem;
+        width: 10rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    
+    }
+    #im7{
+        height:12rem;
+        width: 10rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+    #im8{
+        height:12rem;
+        width: 10rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+}
+@media screen and (max-width: 760px) {
+    .Textsec1Box{
+        display:flex;
+        flex-wrap: wrap;
+        width: 26rem;
+    } 
+    .TextSec2Container{
+        margin-left: 0.9rem;
+        margin-right: 0.1rem;
+       width: 26rem;
+       margin-top: 13rem;
+       z-index: 4004;
+       position: absolute;
+    }
+    .Textsec2Box{
+        display:flex;
+        flex-wrap: wrap;
+        width: 26rem;
+    } 
+    .TextSec1Container{
+        margin-left: 0.9rem;
+        margin-right: 0.5rem;
+       width: 26rem;
+       margin-top: 47rem;
+       z-index: 4004;
+       margin-bottom: 4rem;
+       position: absolute;
+    }
+    #im1{
+        height:24rem;
+        width: 44rem;
+        margin-left: -1.8rem;
+        margin-top: -1rem;
+    }
+    #im2{
+        height:24rem;
+        width: 44rem;
+        margin-left: -4rem;
+        margin-top: -3.8rem;
+    }
+    #im3{
+        height:24rem;
+        width: 44rem;
+        margin-left: -1rem;
+        margin-top: -5.5rem;
+        
+    }
+    #im4{
+        height:24rem;
+        width: 44rem;
+        margin-left: -6rem;
+        margin-top: -5.5rem;
+    }
+    #im5{
+        height:12rem;
+        width: 10rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+    #im6{
+        height:12rem;
+        width: 10rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    
+    }
+    #im7{
+        height:12rem;
+        width: 10rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+    #im8{
+        height:12rem;
+        width: 10rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+}

@@ -1,0 +1,135 @@
+[
+    {
+      "id": 1,
+      "name": "Drools Real Chicken & Chicken Liver Chunks in Gravy Puppy Wet Food",
+      "price":18000,
+      "imageUrl": "/Foodimages/JerHigh Vegetable and Chicken in Gravy Dog Wet Food.png",
+       "type":"Dog"
+    },
+    {
+      "id": 2,
+      "name": "Kennel Kitchen Chicken Chunks in Gravy Adult and Puppy Wet Dog Food",
+      "price":25000 ,
+      "imageUrl": "/Foodimages/Kennel Kitchen Chicken Chunks in Gravy Adult and Puppy Wet Dog Food.jpg",
+      "type":"Dog"
+    },
+    {
+      "id": 3,
+      "name": "Let's Bite Active Adult Chicken Dry Food for Dogs",
+      "price":3000 ,
+      "imageUrl": "/Foodimages/Let's Bite Active Adult Chicken Dry Food for Dogs.jpg",
+      "type":"Dog"
+    },
+    {
+      "id": 4,
+      "name": "Pedigree Chicken Chunks in Gravy Pouch Puppy Wet Food",
+      "price":"8000 ",
+      "imageUrl": "/Foodimages/Pedigree Chicken Chunks in Gravy Pouch Puppy Wet Food.jpg",
+      "type":"Dog"
+    },
+    {
+      "id": 5,
+      "name": "Kennel Kitchen Fish Chunks In Gravy Wet Cat Food - 80 g packs",
+      "price":5000 ,
+      "imageUrl": "/Foodimages/Kennel Kitchen Fish Chunks In Gravy Wet Cat Food - 80 g packs.jpg",
+      "type":"Cat"
+    },
+    {
+      "id": 6,
+      "name": "Persian Adult",
+      "price":5000 ,
+      "imageUrl": "/Foodimages/Persian Adult.jpg",
+      "type":"Cat"
+    },
+    {
+      "id": 7,
+      "name": "Whiskas Tuna",
+      "price":2000,
+      "imageUrl": "/Foodimages/Whiskas Tuna.jpg",
+      "type":"Cat"
+    },
+    {
+      "id": 8,
+      "name": "Versele-Laga Prestige Big Parakeet Bird Food",
+      "price":10000,
+      "imageUrl": "/Foodimages/Versele-Laga Prestige Big Parakeet Bird Food.jpg",
+      "type":"Bird"
+    },
+    {
+      "id": 9,
+      "name": "Optimum Highly Nutritious Fish Food For All Life Stages Mini Pellet, 200g",
+      "price":6000,
+      "imageUrl": "/Foodimages/Optimum Highly Nutritious Fish Food For All Life Stages Mini Pellet, 200g.jpg",
+      "type":"Fish"
+    },
+    {
+      "id": 10,
+      "name": "Purepet Ocean Fish Adult Dry Cat Food",
+      "price":7000 ,
+      "imageUrl": "/Foodimages/Purepet Ocean Fish Adult Dry Cat Food.jpg",
+      "type":"Cat"
+    },
+    {
+        "id": 11,
+        "name": "Drools Real Chicken & Chicken Liver Chunks in Gravy Puppy Wet Food",
+        "price":18000,
+        "imageUrl": "/Foodimages/Drools Real Chicken & Chicken Liver Chunks in Gravy Puppy Wet Food.jpg",
+         "type":"Dog"
+      },
+      {
+        "id": 22,
+        "name": "Kennel Kitchen Chicken Chunks in Gravy Adult and Puppy Wet Dog Food",
+        "price":25000 ,
+        "imageUrl": "/Foodimages/JerHigh Vegetable and Chicken in Gravy Dog Wet Food.png",
+        "type":"Dog"
+      },
+      {
+        "id": 13,
+        "name": "Kennel Kitchen Chicken Chunks in Gravy Adult and Puppy Wet Dog Food",
+        "price":3000 ,
+        "imageUrl": "/Foodimages/Kennel Kitchen Chicken Chunks in Gravy Adult and Puppy Wet Dog Food.jpg",
+        "type":"Dog"
+      },
+      {
+        "id": 14,
+        "name": "Beagle",
+        "price":"8000 ",
+        "imageUrl": "/Foodimages/Pedigree Chicken Chunks in Gravy Pouch Puppy Wet Food.jpg",
+        "type":"Bird"
+      },
+      {
+        "id": 15,
+        "name": "Dachshund",
+        "price":5000 ,
+        "imageUrl": "/Foodimages/Dachshund.jpg",
+        "type":"Bird"
+      },
+      {
+        "id": 16,
+        "name": "Doberman",
+        "price":5000 ,
+        "imageUrl": "/Foodimages/Doberman.jpg",
+        "type":"Bird"
+      },
+      {
+        "id": 17,
+        "name": "IndianPariah",
+        "price":2000,
+        "imageUrl": "/Foodimages/IndianPariah.jpg",
+        "type":"Fish"
+      },
+      {
+        "id": 18,
+        "name": "Labrador",
+        "price":10000,
+        "imageUrl": "/Foodimages/Labrador.jpg",
+        "type":"Fish"
+      },
+      {
+        "id": 19,
+        "name": "Pug",
+        "price":6000,
+        "imageUrl": "/Foodimages/Pug.jpeg",
+        "type":"Bird"
+      }
+  ]

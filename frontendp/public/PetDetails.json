@@ -1,0 +1,23 @@
+
+[
+    {
+      "id": 1,
+      "name": "German Shepherd",
+      "description": "The German Shepherd is a breed of working dog known for its intelligence and versatility. They are large-sized dogs known for their loyalty and courage.",
+      "imageUrl": "/detailedImages/GermanShepherdDetail.jpg",
+      "size": "Large",
+      "colorOptions": ["Black & Tan", "Sable", "Solid Black"]
+     
+    },
+    {
+      "id": 2,
+      "name": "Golden Retriever",
+      "description": "The Golden Retriever is a friendly, intelligent, and devoted dog. They are well-known for their friendly disposition and golden-colored coat.",
+      "imageUrl": "/detailedImages/GoldenRetrieverDetail.jpg",
+      "size": "Medium",
+      "colorOptions": ["Golden"]
+      // Add more details as needed
+    }
+    // Add entries for other pets
+  ]
+  

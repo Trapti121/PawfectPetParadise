@@ -1,0 +1,120 @@
+body.login-body {   
+     background-image: url('../Pet_Img3.png');
+    background-repeat: no-repeat;
+    background-size:100% ;
+}
+
+.Box{
+    display:flex;
+}
+/* .Imge{
+    margin-top: 5em;
+    margin-left: 20em;
+    margin-bottom: auto;
+} */
+.Form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10em;
+    /* padding: auto; */
+    width:51em;
+    opacity:0.8;
+    margin-left :24em ;
+    border: black;
+    background-color: rgb(119, 117, 116);
+    height: 25em;
+}
+.Form label {
+    color: #ffffff;
+    font-weight: bold;
+    position: inherit;
+    align-items: left;
+    justify-self: start;
+  }
+  .Form h1{
+    color: #ffffff;
+    margin-bottom: 1.5em;
+  }
+  .Form input {
+    width: 30em;
+    padding: 10px;
+    margin: 20px;
+    background-color: #ffffff;
+    border-radius: 4em;
+    display: flex;
+  }
+  
+  .Form button {
+    background:rgb(0, 7, 9);
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    margin: 2em;
+    border-radius: 2.5em;
+    cursor: pointer;
+  }
+  .Form button a{
+    text-decoration: none;
+    color: #9e9d9d;
+  }
+  @media screen and (min-width: 360px) and (max-width: 740px) {
+    body.login-body {   
+     background-image: none;
+     background-color: rgb(244, 160, 179);
+ }
+ .Form{
+  position:absolute;
+  padding: auto;
+  width:80%;
+  text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -2rem;
+    right: 2em;
+    padding: auto;
+ }
+ .Form label {
+    color: #ffffff;
+    font-weight: bold;
+    position: inherit;
+    align-items: left;
+    justify-self: start;
+    font-size: small;
+  }
+  .Form h1{
+    color: #ffffff;
+     font-size: 2rem;
+    margin-bottom: 1em;
+    margin-top:-5rem;
+  }
+  .Form input {
+    width: 15rem;
+    padding: 2px;
+    margin: 4px;
+    border-radius: 0.4rem;
+    border-color: rgb(164, 120, 127);
+    display: flex;
+  }
+  
+  .Form button {
+    cursor: pointer;
+    background:rgb(0, 7, 9);
+    color: #ffffff;
+    padding: 4px 6px;
+    border: none;
+    margin: 0.2em;
+    border-radius: 0.4em;
+    cursor: pointer;
+    font-size: small;
+  }
+  .Form button a{
+     text-decoration: none;
+     color: #9e9d9d;
+     font-size: small;
+   }
+  }
+ 

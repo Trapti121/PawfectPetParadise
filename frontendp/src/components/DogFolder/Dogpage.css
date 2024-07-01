@@ -1,0 +1,98 @@
+.Container{
+    margin-left: 150px;
+    margin-right: 105px;
+    box-shadow: 0 3px 8px rgba(8, 8, 8, 1);
+    margin-top: 2rem;
+    background:white;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+}
+.Box{
+  flex-direction: column;
+ 
+
+}
+.search-box{
+  width :42rem;
+  position: relative;
+  margin-left: 185px;
+  bottom: -12px;
+}
+.searchbtn{
+  bottom: -12px;
+  position: relative;
+  background-color: rgb(242, 99, 80);
+  color: black;
+} 
+.searchbtn:hover{
+  background-color: rgb(246, 122, 91);
+}
+.head{
+    display:flex;
+    margin-left:1rem;
+   
+}
+.Size{
+   
+   margin-left:2rem;
+   margin-top: 1.4rem;
+
+}
+.Sort{
+    margin-left:20.5rem;
+   margin-top: 1.4rem;
+}
+
+.head h3{
+    margin-top: 1.4rem;
+    margin-left:28rem;
+    font-weight: 500;
+    color: #141E46;
+}
+.h{
+    background: rgb(207, 206, 206);
+    display: flex;
+    flex-direction: row;
+    height: 0.01rem;
+    margin-top: 1rem;
+}
+@media only screen and (min-width: 360px) and (max-width:740px) {
+    .Box{
+        width: 1rem;
+    }
+    .Container {
+      position: absolute;
+      width: 24rem;
+      left:-8.1rem;
+      box-shadow: none;
+      right:1rem;
+    }
+  
+    .head {
+      display: flex;
+      flex-direction: column;
+    }
+  
+   
+    .Sort {
+      display: none;
+    }
+  .Size{
+display: none;
+
+  }
+    .head h3 {
+        position: absolute;
+    
+      left: -19rem;
+      text-align: center;
+      font-weight: 500;
+      font-size: larger;
+    }
+  
+    .h {
+        position: relative;
+      top: 3rem;
+    }
+    
+  }

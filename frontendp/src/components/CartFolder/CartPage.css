@@ -1,0 +1,22 @@
+.CartBox{
+    margin-left: 150px;
+    margin-right: 105px;
+    margin-top: 2rem;
+    background:white;
+    box-shadow: 0 3px 8px rgba(8, 8, 8, 1);
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+    
+}
+.datacartbox{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 70px;
+}
+.Header h3{
+    margin-top: 1.4rem;
+    margin-left:36rem;
+    font-weight: 500;
+    padding-bottom: 1rem;
+    color: #0f0f0f;
+}

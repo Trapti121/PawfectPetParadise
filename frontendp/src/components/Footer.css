@@ -1,0 +1,259 @@
+
+footer {
+     background-color: #e9e6e6;
+    overflow: hidden;
+    width: 100vw;
+    padding: 20px;
+    height: 30vh;
+    text-align: center;
+    font-family:"Quicksand", sans-serif; ;
+  }
+  
+  .footer-content {
+    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* margin: 0 auto; */
+   margin-left:3rem ;
+    color: Black;
+    /* position: relative; */
+  }
+  .shop-info{
+    position: absolute;
+    display: flex;
+    flex-direction:column;
+    margin-left: -57rem;
+    width: 25%;
+  }
+  .shop-info h3{
+   text-align: left;
+   
+  }
+
+  .shop-info p {
+    text-align: left;
+    color: grey;
+    font-weight: 420;
+    padding: .5rem;
+    justify-content: end;
+  }
+  
+  .social-links{
+    display: flex;
+    margin-left: 1rem;
+    padding: .5rem;
+  }
+  .social-links a {
+    
+    color: grey;
+    text-decoration: none;
+    margin-right: 15px;
+
+   
+  }
+  
+  .social-links a:hover {
+    color: blue;
+  }
+  .Support h3{
+    padding-bottom: .5rem;
+    left:.01rem;
+    position: relative;
+  }
+  .Support{
+    
+   position:absolute;
+   left:43rem;
+   display: flex;
+   flex-direction: column;
+   text-align: left;  
+  }
+  .Support a{
+    color: grey; 
+    font-weight: 420;
+  } 
+  .Shop h3{
+    padding-bottom: .5rem;
+    left:0rem;
+    position: relative;
+  }
+  .Shop{
+    
+   position:absolute;
+   left:59rem;
+   display: flex;
+   flex-direction: column;
+   text-align: left;  
+  }
+  .Shop a{
+    color: grey;
+    font-weight: 420;
+  }
+  .contact_us h3{
+    padding-bottom: .5rem;
+    left:.01rem;
+    position: relative;
+  }
+  .contact_us{
+    
+   position:absolute;
+   left:72rem;
+   display: flex;
+   flex-direction: column;
+   text-align: left;  
+  }
+  .contact_us p{
+    padding: .3rem;
+    color: grey;
+    font-weight: 420;
+  }
+  @media screen and (max-width: 1443px) and (min-width: 760px) {
+    footer {
+    background-color: #e9e6e6;
+     overflow: hidden;
+     width: 97vw;
+     padding: 20px;
+     height: 75vh;
+     text-align: center;
+     font-family:"Quicksand", sans-serif; ;
+   }
+   .footer-content {
+    flex-wrap: wrap;
+   margin-left:2rem ;
+  }
+  .shop-info{
+    position: absolute;
+    display: flex;
+    flex-direction:column;
+    margin-left: -47rem;
+    width: 20%;
+  }
+  .shop-info h3{
+   font-size: 20px;
+   
+  }
+  .social-links{
+    display: flex;
+    margin-left: 1rem;
+    padding: .5rem;
+  }
+  .social-links a {
+    
+    color: grey;
+    text-decoration: none;
+    margin-right: 15px;
+
+   
+  }
+  
+  .social-links a:hover {
+    color: blue;
+  }
+  .Support h3{
+    padding-bottom: .5rem;
+    left:.01rem;
+    position: relative;
+    
+  }
+  .Support{
+    
+   position:absolute;
+   left:24rem;
+   display: flex;
+   flex-direction: column;
+   text-align: left;  
+  }
+  .Shop{
+   left:37rem; 
+  }
+  .Shop a{
+    color: grey;
+    font-weight: 420;
+  }
+  
+  .contact_us{
+    
+   position:absolute;
+   left:47rem;
+   display: flex;
+   flex-direction: column;
+   text-align: left;  
+  }
+  .contact_us p{
+    padding: .3rem;
+    color: grey;
+    font-weight: 420;
+  }
+  }
+  @media screen and (max-width: 760px) {
+     footer{
+      top: 20rem;
+      position: relative;
+      width: 100vw;
+      background-color: #fff;
+      
+     }
+    .footer-content {
+    flex-direction: row;
+     display: flex;
+    }
+    .shop-info{
+      position: absolute;
+      margin-left: -10rem;
+      width: 50%;
+    }
+    .shop-info h3{
+     font-size: 16px;
+     
+    }
+    .shop-info p{
+      font-size: small;
+    }
+    .social-links{
+      padding: .2rem;
+    }
+    .social-links a{
+    color: palevioletred;
+    }
+    .Support h3{
+      font-size: 16px;
+      
+    }
+    .Support li{
+    font-size: small;
+    }
+    .Support{
+      position: absolute;
+      margin-left: -39rem;
+      width: 50%; 
+      margin-top: 14rem;
+    }
+    .Shop{
+     left:15rem; 
+    }
+    .Shop h3{
+      font-size: 16px;
+      
+    }
+    .Shop a{
+      color: grey;
+      font-weight: 420;
+      font-size: small;
+    }
+    
+    .contact_us{  
+     position:absolute;
+     left:14rem; 
+     margin-top: 14rem;
+    }
+    .contact_us h3{
+      font-size: 16px;
+    }  
+    .contact_us p{
+      padding: .3rem;
+      color: grey;
+      font-weight: 420;
+      font-size: small;
+    }
+  }

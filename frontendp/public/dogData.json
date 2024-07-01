@@ -1,0 +1,71 @@
+[
+  {
+    "id": 1,
+    "name": "German Shepherd",
+    "price":18000,
+    "imageUrl": "/dogpageimages/GermanShepherd.jpg",
+    "size":"Large"
+  },
+  {
+    "id": 2,
+    "name": "Golden Retriever",
+    "price":25000 ,
+    "imageUrl": "/dogpageimages/GoldenRetriever.png",
+    "size":"Medium"
+  },
+  {
+    "id": 3,
+    "name": "Pomeranian",
+    "price":3000 ,
+    "imageUrl": "/dogpageimages/Pomeranian.jpg",
+    "size":"Small"
+  },
+  {
+    "id": 4,
+    "name": "Beagle",
+    "price":"₹8000",
+    "imageUrl": "/dogpageimages/Beagle.jpg",
+    "size":"Medium"
+  },
+  {
+    "id": 5,
+    "name": "Dachshund",
+    "price":5000 ,
+    "imageUrl": "/dogpageimages/Dachshund.jpg",
+    "size":"Large"
+  },
+  {
+    "id": 6,
+    "name": "Doberman",
+    "price":5000 ,
+    "imageUrl": "/dogpageimages/Doberman.jpg"
+  },
+  {
+    "id": 7,
+    "name": "IndianPariah",
+    "price":2000,
+    "imageUrl": "/dogpageimages/IndianPariah.jpg",
+    "size":"Large"
+  },
+  {
+    "id": 8,
+    "name": "Labrador",
+    "price":10000,
+    "imageUrl": "/dogpageimages/Labrador.jpg",
+    "size":"Large"
+  },
+  {
+    "id": 9,
+    "name": "Pug",
+    "price":6000,
+    "imageUrl": "/dogpageimages/Pug.jpeg",
+    "size":"Small"
+  },
+  {
+    "id": 10,
+    "name": "Rottweiler",
+    "price":7000 ,
+    "imageUrl": "/dogpageimages/Rottweiler.jpg",
+    "size":"Large"
+  }
+]

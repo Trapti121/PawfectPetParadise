@@ -1,0 +1,259 @@
+.text{
+  align-items: center;
+  justify-self: center;
+ margin-top: 3em;
+ position:absolute;
+ margin-left: 12em;
+ -webkit-box-reflect: below 1px linear-gradient(translate, rgba(50, 40, 40, 0.533));
+  overflow: hidden;
+  white-space: nowrap;
+  /* border-right: 1px solid #1c0707; */
+  animation: ani 8s linear infinite;
+
+}
+
+@keyframes ani {
+0%,10%{
+ width: 0;
+ text-shadow: none;
+} 
+18.1%,20%,30%,50%,60.1%{
+ width: 100%;
+border-right:none ;
+} 
+90%,100%{
+ width: 100%;
+     border-right:none;
+}
+}
+
+   
+   .text h1{
+    font-size:4em;
+    color: #3a0b0b;
+    font-family: cursive;
+   }
+   .text h2{
+    font-size:4em;
+   }
+   .text h3{
+    font-size:4em;
+   }
+.ImgBox{
+  
+display: flex;
+flex-direction: column;
+margin-left:50em;
+margin-top:-18em;
+padding: 3em;
+}
+.ImgBox1 {
+display: flex;
+}
+#img1{
+width:18em;
+height: auto;
+
+}
+#img2{
+width:18em;
+height: auto;
+}
+#img3{
+width:18em;
+height: auto;
+}
+#img4{
+width:18em;
+height: auto;
+}
+#img5{
+margin-top: 10rem;
+/* position:absolute; */
+margin-left: 39rem;
+height: 5rem;
+width: 6rem;
+}
+.ImgBox2{
+display: flex;
+/* flex-direction: row; */
+}
+/* .e1{
+background-color: aliceblue;
+margin: auto;
+padding-left: 1em;
+box-shadow: inset;
+padding-right: 0.9em;
+border-radius: 40px;
+}
+.e2{
+background-color: aliceblue;
+border-radius: 40px;
+padding-left: 0.9rem;
+margin-top:1rem;
+} */
+.LR{
+font-weight: 500;
+  font-size: 13px;
+
+  font-family: "Quicksand", sans-serif;
+font-size: 3em;
+position: absolute;
+display: flex;
+top:26rem;
+flex-direction: column;
+margin-left: 13rem;
+background: #ff5f5f;
+border-radius: 28px;
+box-shadow: 0 3px 8px rgba(8, 8, 8, 1);
+padding: 1rem;
+font-size: 3rem;
+text-decoration: none;
+}
+#img6{
+position: absolute;
+width:6rem;
+top:44rem;
+left:1.7rem;
+}
+@media screen and (max-width: 1443px) and (min-width: 760px) {
+  .text h1{
+    font-size: 2rem;
+  }
+  #img5{
+    margin-top: 6rem;
+    /* position:absolute; */
+    margin-left: 26rem;
+    height: 4rem;
+    width: 4rem;
+    }
+    .ImgBox{
+  
+      display: flex;
+      flex-direction: column;
+      margin-left:37em;
+      margin-top:-14em;
+      padding: 4em;
+      }
+      #img1{
+        width:12em;
+        height: auto;
+        
+        }
+        #img2{
+          width:12em;
+          height: auto;
+        }
+        #img3{
+          width:12em;
+          height: auto;
+        }
+        #img4{
+          width:12em;
+          height: auto;
+        }
+        .LR{
+          font-weight: 400;
+            font-family: "Quicksand", sans-serif;
+          position: absolute;
+          display: flex;
+          top:19rem;
+          flex-direction: column;
+          margin-left: 13rem;
+          background: #ff5f5f;
+          border-radius: 53px;
+          box-shadow: 0 3px 8px rgba(8, 8, 8, 1);
+          padding: 1rem;
+          font-size: 2rem;
+          text-decoration: none;
+          }
+}
+@media screen and (max-width: 760px)  {
+.FullTextsec{
+  width:10vw;
+  margin-top: -14rem;
+  flex-direction: row;
+}
+.text{
+ top: 11em;
+ position:absolute;
+ margin-left: 2em;
+ margin-top: -3rem;
+ z-index: 400;
+   }
+   .text h1{
+    font-size:1.4em;
+   }
+   .text h2{
+    font-size:2em;
+   }
+   .text h3{
+    font-size:2em;
+   }
+.ImgBox{
+padding: 5px;
+right:-6em;
+top:24em;
+position: absolute;
+
+}
+.ImgBox1 {
+display: flex;
+}
+#img1{
+width:5em;
+height: auto;
+
+}
+#img2{
+width:5em;
+height: auto;
+}
+#img3{
+width:5em;
+height: auto;
+}
+#img4{
+width:5em;
+height: auto;
+}
+#img5{
+margin-top:-.7rem;
+position:absolute;
+margin-left: 16rem;
+width: 3em;
+height: 3rem;
+
+}
+.ImgBox2{
+display: flex;
+/* flex-direction: row; */
+}
+
+.LR{
+box-shadow: 0 3px 8px rgba(8, 8, 8, 1);
+font-weight: 500;
+font-family: "Quicksand", sans-serif;
+font-size: 1rem;
+position: absolute;
+display: flex;
+top:2rem;
+width: 6rem;
+height: 2rem;
+margin-left: 8rem;
+border-radius: 4em;
+padding: 0rem;
+text-decoration: none;
+}
+.e1{
+margin-left: .2rem;
+padding: 1rem;
+}
+.e2{
+  margin-top: -1.5rem;
+  margin-left: 1rem;
+padding: 0rem;
+
+
+}
+}
