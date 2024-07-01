@@ -1,13 +1,4 @@
-const mongoose=require("mongoose")
-// mongodb+srv://Trapti:tkg@4002@cluster0.snfcjdu.mongodb.net/?retryWrites=true&w=majority
-// mongodb+srv://Trapti:tkg@4002@cluster0.snfcjdu.mongodb.net/?retryWrites=true&w=majority
-mongoose.connect("mongodb+srv://Trapti:tkg4002@cluster0.snfcjdu.mongodb.net/?retryWrites=true&w=majority")
-.then(()=>{
-    console.log("mongodb connected");
-})
-.catch((e)=>{
-    console.log('failed',e);
-})
+const mongoose = require("mongoose");
 const ewSchema=new mongoose.Schema({
     email:{
         type:String,
