@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import { useNavigate, Link } from 'react-router-dom';
 import Card from '../Card';
 import axios from "axios";
 import './Birdpage.css';
@@ -46,7 +46,13 @@ function Birdpage() {
   
   return (
     <>
+
       <div className='Box'>
+        <div>
+          <Link to='/add-items'>
+          <button>Add Birds</button>
+          </Link>
+          </div>
         <div className='Container'>
           <div className='head'>
             <div className="Size">

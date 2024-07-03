@@ -20,7 +20,7 @@ const Cartcard = ({ cardData }) => {
     
     <div className="cardcart">
       <div className='cartImgbx'>
-        <img src={cardData.imageUrl} alt={cardData.name} className="cartcard-image" />
+        <img src={cardData.image} alt={cardData.name} className="cartcard-image" />
       </div>
       <div className="cart-card-content">
         <h2 className="cart-card-title"> <span name={cardData.name}>{cardData.name}</span></h2>

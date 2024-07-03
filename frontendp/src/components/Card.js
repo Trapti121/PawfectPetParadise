@@ -20,7 +20,7 @@ const Card = ({ cardData }) => {
     
     <div className="card">
       <div className='Imgbx'>
-        <img src={cardData.imageUrl} alt={cardData.name} className="card-image" />
+        <img src={cardData.image} alt={cardData.name} className="card-image" />
       </div>
       <div className="card-content">
         <h2 className="card-title"> <span name={cardData.name}>{cardData.name}</span></h2>
@@ -33,7 +33,7 @@ const Card = ({ cardData }) => {
         </div>
         <div className='Detail'>
           {showForm ? (
-            <EnquiryForm dogName={cardData.name} imageUrl={cardData.imageUrl} toggleShowForm = {toggleShowForm} />
+            <EnquiryForm dogName={cardData.name} image={cardData.image} toggleShowForm = {toggleShowForm} />
           ) : (
             <Link
               to="#"

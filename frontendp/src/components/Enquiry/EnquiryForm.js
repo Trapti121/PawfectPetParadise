@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from "axios";
 import { useNavigate, Link } from 'react-router-dom';
 import './EnquiryForm.css';
-export const EnquiryForm = ({ dogName, imageUrl, toggleShowForm }) => {
+export const EnquiryForm = ({ dogName, image, toggleShowForm }) => {
   const history = useNavigate();
   const [email, setEmail] = useState('');
   const [name, setName] = useState('');
@@ -39,7 +39,7 @@ export const EnquiryForm = ({ dogName, imageUrl, toggleShowForm }) => {
       <form onSubmit={handleSubmit}>
         <h2>Product Enquiry Form</h2>
         <div className="product-info">
-          <img src={imageUrl} alt={dogName} className="mini-image" />
+          <img src={image} alt={dogName} className="mini-image" />
           <span>{dogName}</span>
         </div>
         <label htmlFor="phone">Phone Number:</label>

@@ -8,6 +8,7 @@ const Navbar = () => {
   const [click, setClick]= useState(false);
   const handleClick = () => setClick(!click);
   const auth = localStorage.getItem('userlogins');
+  const auth2=localStorage.getItem('adminlogins');
   const logout=()=>{
     localStorage.clear();
     console.log("Logged out");
@@ -44,7 +45,7 @@ const Navbar = () => {
         </ul> 
           <div className="connect">
           <button className="loginbtn" >
-          {auth? <Link onClick={logout} to="/login"  >Logout</Link>:  <Link to="/login"  >Login</Link>}
+          {auth || auth2 ? <Link onClick={logout} to="/initialpage"  >Logout</Link>:  <Link to="/initialpage"  >Login</Link>}
          </button>
          <div className="cart1">
           <Link to="/cart">

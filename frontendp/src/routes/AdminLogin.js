@@ -3,10 +3,9 @@ import axios from "axios"
 import '../components/Login.css';
 import { useNavigate, Link } from 'react-router-dom';
 
-export const Login = (props) => {
+export const AdminLogin= (props) => {
 
   const history=useNavigate();
-
   const [email, setEmail] = useState('');
   const [pass, setPass] = useState('');
   const handleSubmit = (e) => {
@@ -17,20 +16,18 @@ export const Login = (props) => {
     e.preventDefault();
 
     try{
-
         await axios.post("http://localhost:8000/login",{
             email,pass
         })
         .then(res=>{
             if(res.data==="exist"){
-                alert("USer signed in")
-                 
+                alert("Admin signed in")
                 console.log(res.config.data);
-                localStorage.setItem("userlogins",JSON.stringify(res.config.data));
+                localStorage.setItem("adminlogins",JSON.stringify(res.config.data));
                 history("/")
             }
             else if(res.data==="notexist"){
-                alert("User have not Registered!")
+                alert("Admin have not Registered!")
                 history("/register")
             }
         })
@@ -60,7 +57,7 @@ export const Login = (props) => {
       <div className="Box">
         <div className="Form">
           <form onSubmit={handleSubmit}>
-            <h1>Login as User</h1>
+            <h1>Login as Admin</h1>
             <label htmlFor="email">Email</label>
             <input
               value={email}
@@ -89,4 +86,4 @@ export const Login = (props) => {
     </>
   );
 };
-export default Login;
+export default AdminLogin;

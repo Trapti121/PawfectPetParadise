@@ -7,11 +7,6 @@ body.login-body {
 .Box{
     display:flex;
 }
-/* .Imge{
-    margin-top: 5em;
-    margin-left: 20em;
-    margin-bottom: auto;
-} */
 .Form{
     text-align: center;
     display: flex;
