@@ -1,0 +1,227 @@
+[
+    {
+      "id": 1,
+      "name": "German Shepherd",
+      "price":18000,
+      "imageUrl": "/dogpageimages/GermanShepherd.jpg",
+      "size":"Large"
+    },
+    {
+      "id": 2,
+      "name": "Golden Retriever",
+      "price":25000 ,
+      "imageUrl": "/dogpageimages/GoldenRetriever.png",
+      "size":"Medium"
+    },
+    {
+      "id": 3,
+      "name": "Pomeranian",
+      "price":3000 ,
+      "imageUrl": "/dogpageimages/Pomeranian.jpg",
+      "size":"Small"
+    },
+    {
+      "id": 4,
+      "name": "Beagle",
+      "price":"₹8,000 - ₹16,000",
+      "imageUrl": "/dogpageimages/Beagle.jpg",
+      "size":"Medium"
+    },
+    {
+      "id": 5,
+      "name": "Dachshund",
+      "price":5000 ,
+      "imageUrl": "/dogpageimages/Dachshund.jpg",
+      "size":"Large"
+    },
+    {
+      "id": 6,
+      "name": "Doberman",
+      "price":5000 ,
+      "imageUrl": "/dogpageimages/Doberman.jpg"
+    },
+    {
+      "id": 7,
+      "name": "IndianPariah",
+      "price":2000,
+      "imageUrl": "/dogpageimages/IndianPariah.jpg",
+      "size":"Large"
+    },
+    {
+      "id": 8,
+      "name": "Labrador",
+      "price":10000,
+      "imageUrl": "/dogpageimages/Labrador.jpg",
+      "size":"Large"
+    },
+    {
+      "id": 9,
+      "name": "Pug",
+      "price":6000,
+      "imageUrl": "/dogpageimages/Pug.jpeg",
+      "size":"Small"
+    },
+    {
+      "id": 10,
+      "name": "Rottweiler",
+      "price":7000 ,
+      "imageUrl": "/dogpageimages/Rottweiler.jpg",
+      "size":"Large"
+    },
+        {
+          "id": 1,
+          "name": "Bombay Cat",
+          "price":50000,
+          "imageUrl": "/catpageimages/BombayCat.jpeg"
+        },
+        {
+          "id": 2,
+          "name": "Himalayan Cat",
+          "price":20800,
+          "imageUrl": "/catpageimages/HimalayanCat.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Siamese cat",
+          "price":44300,
+          "imageUrl": "/catpageimages/SiameseCat.webp"
+        },
+        {
+          "id": 4,
+          "name": "Rusty Spotted",
+          "price":5000,
+          "imageUrl": "/catpageimages/RustySpotted.jpeg"
+        },
+        {
+          "id": 5,
+          "name": "Persian cat",
+          "price":26000,
+          "imageUrl": "/catpageimages/PersianCat.jpg"
+        },
+        {
+          "id": 6,
+          "name": "Maine coon",
+          "price":43000,
+          "imageUrl": "/catpageimages/Mainecoon.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Leapord cat",
+          "price":33500,
+          "imageUrl": "/catpageimages/LeapordCat.jpg"
+        },
+        {
+          "id": 8,
+          "name": "Turkish van",
+          "price":40200,
+          "imageUrl": "/catpageimages/Turkishvan.jpg"
+        },
+        {
+          "id": 9,
+          "name": "Birman Cat",
+          "price":17600,
+          "imageUrl": "/catpageimages/BirmanCat.jpg"
+        },
+        {
+          "id": 10,
+          "name": "Ragdoll cat",
+          "price":28000,
+          "imageUrl": "/catpageimages/RagdollCat.jpg"
+        },
+        {
+            "id": 1,
+            "name": "Pigeons",
+             "price":10000,
+            "imageUrl": "/birdpageimages/Pigeons.jpeg"
+          },
+          {
+            "id": 2,
+            "name": "African Parrot",
+            "price":4000,
+            "imageUrl": "/birdpageimages/AfricanParrot.webp"
+          },
+          {
+            "id": 3,
+            "name": "Cockatiel",
+            "price":2000,
+            "imageUrl": "/birdpageimages/Cockatiel.jpg"
+          },
+          {
+            "id": 4,
+            "name": "Finch",
+            "price":2500,
+            "imageUrl": "/birdpageimages/Finch.webp"
+          },
+          {
+            "id": 5,
+            "name": "Budgeriger",
+            "price":10000,
+            "imageUrl": "/birdpageimages/Budgeriger.jpeg"
+          },
+            {
+              "id": 1,
+              "name": "Goldfish",
+              "price":50,
+              "imageUrl": "/fishpageimages/GoldFish.jpg"
+            },
+            {
+              "id": 2,
+              "name": "Betta Fish",
+              "price":250,
+              "imageUrl": "/fishpageimages/BettaFish.webp"
+            },
+            {
+              "id": 3,
+              "name": "Gourami Fish",
+              "price":80,
+              "imageUrl": "/fishpageimages/GouramiFish.jpg"
+            },
+            {
+              "id": 4,
+              "name": "Molly Fish",
+              "price":50,
+              "imageUrl": "/fishpageimages/Molly Fish.jpg"
+            },
+            {
+              "id": 5,
+              "name": "Cat Fish",
+              "price":35,
+              "imageUrl": "/fishpageimages/CatFish.webp"
+            },
+            {
+              "id": 6,
+              "name": "Guppy Fish",
+              "price":1000,
+              "imageUrl": "/fishpageimages/Guppy Fish.jpg"
+            },
+            {
+              "id": 7,
+              "name": "Angel Fish",
+              "price":150,
+              "imageUrl": "/fishpageimages/Angelfish.jpg"
+            },
+            {
+              "id": 8,
+              "name": "Flowerhorn",
+              "price":400,
+              "imageUrl": "/fishpageimages/flowerhorn.jpg"
+            },
+            {
+              "id": 9,
+              "name": "Oscar Fish",
+              "price":300,
+              "imageUrl": "/fishpageimages/oscarfish.jpg"
+            },
+            {
+              "id": 10,
+              "name": "Shark",
+              "price":30,
+              "imageUrl": "/fishpageimages/shark.jpg"
+            },
+            {
+              "id": 11,
+              "name": "Arowana Fish",
+              "price":10000,
+              "imageUrl": "/fishpageimages/arowana fish.jpg"
+            }
+          ]

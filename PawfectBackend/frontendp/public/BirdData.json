@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "name": "Pigeons",
+       "price":10000,
+      "imageUrl": "/birdpageimages/Pigeons.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "African Parrot",
+      "price":4000,
+      "imageUrl": "/birdpageimages/AfricanParrot.webp"
+    },
+    {
+      "id": 3,
+      "name": "Cockatiel",
+      "price":2000,
+      "imageUrl": "/birdpageimages/Cockatiel.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Finch",
+      "price":2500,
+      "imageUrl": "/birdpageimages/Finch.webp"
+    },
+    {
+      "id": 5,
+      "name": "Budgeriger",
+      "price":10000,
+      "imageUrl": "/birdpageimages/Budgeriger.jpeg"
+    }
+  ]
+   

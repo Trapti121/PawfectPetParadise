@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8a5f5fd5.css",
+    "main.js": "/static/js/main.69895682.js",
+    "static/media/DogFood.png": "/static/media/DogFood.59968525a43a4364e009.png",
+    "static/media/Pet_Img3.png": "/static/media/Pet_Img3.1bbc92361fd5bbd42ce1.png",
+    "static/media/BirdFood.png": "/static/media/BirdFood.8040a87bc8e862b4a367.png",
+    "static/media/FishFood.png": "/static/media/FishFood.de857301add2584e17ce.png",
+    "static/media/CatFood.png": "/static/media/CatFood.17483c73d175698c4b20.png",
+    "static/media/cat.jpg": "/static/media/cat.f9a16979d1380aac52b8.jpg",
+    "static/media/Catimg.png": "/static/media/Catimg.0e783b90232dc49ae65c.png",
+    "static/media/petShop.avif": "/static/media/petShop.aefb01a34345709092f3.avif",
+    "static/media/Dogimg.png": "/static/media/Dogimg.b6113d9de7247f538e40.png",
+    "static/media/Fishimg.png": "/static/media/Fishimg.7b85f4a2bc2ccc02b065.png",
+    "static/media/Birdimg.png": "/static/media/Birdimg.d6e801c2fd68e6da2d67.png",
+    "static/media/dog.jpg": "/static/media/dog.58ecb553862eeddae2cd.jpg",
+    "static/media/logo.png": "/static/media/logo.0efd94d14ddcaaeebcfa.png",
+    "index.html": "/index.html",
+    "main.8a5f5fd5.css.map": "/static/css/main.8a5f5fd5.css.map",
+    "main.69895682.js.map": "/static/js/main.69895682.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a5f5fd5.css",
+    "static/js/main.69895682.js"
+  ]
+}

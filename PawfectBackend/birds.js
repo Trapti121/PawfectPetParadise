@@ -50,7 +50,7 @@ const cors = require('cors');
 const fileUpload = require("express-fileupload")
 const cloudinary = require("cloudinary").v2;
 const mongoose = require('mongoose');
-
+require('dotenv').config();
 const app = express();
 const port = 8001;
 
@@ -67,7 +67,7 @@ cloudinary.config({
   api_secret: '6BPN3SlTSgYhr6Y_FEVW5ecnyos' 
 });
 
-mongoose.connect('mongodb+srv://Trapti:tkg4002@cluster0.a97rcaf.mongodb.net/?retryWrites=true&w=majority', {
+mongoose.connect(process.env.DB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(() => {
