@@ -23,8 +23,8 @@ Welcome to the repository for Pawfect Pet Paradise, an in-house internship proje
      - Cloudinary Integration: Ensures high-quality, fast-loading images of pets, enhancing the user experience.
      
    - Authentication
-    - Secure User Authentication: Implements JWT tokens for secure authentication, ensuring that only authorized users can access certain functionalities.
-    - Admin Authentication: Separate authentication for admin users, allowing them to manage the pet shop's content securely.
+     - Secure User Authentication: Implements JWT tokens for secure authentication, ensuring that only authorized users can access certain functionalities.
+     - Admin Authentication: Separate authentication for admin users, allowing them to manage the pet shop's content securely.
 
     
 3) Technology Stack
