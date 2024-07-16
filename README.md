@@ -1,6 +1,4 @@
-1) Overview :
 
-Welcome to the repository for Pawfect Pet Paradise, an in-house internship project aimed at digitalizing the Lovely Aquarium and Pet Shop. This project was undertaken in September 2023 to provide a seamless online platform for pet lovers and streamline the pet adoption process.
 
 ![Screenshot (878)](https://github.com/Trapti121/PawfectPetParadise/assets/102005515/ed964225-064b-48b8-b317-0e0d3ee093ee)
 ![Screenshot (881)](https://github.com/Trapti121/PawfectPetParadise/assets/102005515/201ba1a0-567b-475f-8bc8-2a35102a6155)
@@ -11,6 +9,8 @@ Welcome to the repository for Pawfect Pet Paradise, an in-house internship proje
 ![Screenshot (887)](https://github.com/Trapti121/PawfectPetParadise/assets/102005515/da4caf61-de88-4acb-b2b0-bec5024e2ba2)
 ![Screenshot (888)](https://github.com/Trapti121/PawfectPetParadise/assets/102005515/8e19dc6b-50a8-46af-8d71-1531ad3440ed)
 
+1) Overview :
+Welcome to the repository for Pawfect Pet Paradise, an in-house internship project aimed at digitalizing the Lovely Aquarium and Pet Shop. This project was undertaken in September 2023 to provide a seamless online platform for pet lovers and streamline the pet adoption process.
 
 2) Features
    - User Interface
@@ -22,7 +22,7 @@ Welcome to the repository for Pawfect Pet Paradise, an in-house internship proje
      - Efficient Content Updates: The admin panel allows the pet shop staff to update content easily, including adding new pets, updating pet information, and managing inquiries
      - Cloudinary Integration: Ensures high-quality, fast-loading images of pets, enhancing the user experience.
      
-  - Authentication
+   - Authentication
     - Secure User Authentication: Implements JWT tokens for secure authentication, ensuring that only authorized users can access certain functionalities.
     - Admin Authentication: Separate authentication for admin users, allowing them to manage the pet shop's content securely.
 
