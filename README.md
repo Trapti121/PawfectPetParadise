@@ -1,4 +1,3 @@
-
 1) Overview :
 
 Welcome to the repository for Pawfect Pet Paradise, an in-house internship project aimed at digitalizing the Lovely Aquarium and Pet Shop. This project was undertaken in September 2023 to provide a seamless online platform for pet lovers and streamline the pet adoption process.
@@ -15,17 +14,17 @@ Welcome to the repository for Pawfect Pet Paradise, an in-house internship proje
 
 2) Features
    - User Interface
-      a) Browse Pets: Users can effortlessly browse through the available pets, view detailed information, and high-quality images.
-      b) Send Inquiries: Potential adopters can send inquiries directly through the platform, making the adoption process smoother.
-      c) Provide Feedback: Users can leave feedback on their experience, helping the pet shop improve its services.
+       - Browse Pets: Users can effortlessly browse through the available pets, view detailed information, and high-quality images.
+       - Send Inquiries: Potential adopters can send inquiries directly through the platform, making the adoption process smoother.
+       - Provide Feedback: Users can leave feedback on their experience, helping the pet shop improve its services.
      
    - Admin Panel
-     a) Efficient Content Updates: The admin panel allows the pet shop staff to update content easily, including adding new pets, updating pet information, and managing inquiries.
-     b) Cloudinary Integration: Ensures high-quality, fast-loading images of pets, enhancing the user experience.
+     - Efficient Content Updates: The admin panel allows the pet shop staff to update content easily, including adding new pets, updating pet information, and managing inquiries
+     - Cloudinary Integration: Ensures high-quality, fast-loading images of pets, enhancing the user experience.
      
   - Authentication
-    a) Secure User Authentication: Implements JWT tokens for secure authentication, ensuring that only authorized users can access certain functionalities.
-    b) Admin Authentication: Separate authentication for admin users, allowing them to manage the pet shop's content securely.
+    - Secure User Authentication: Implements JWT tokens for secure authentication, ensuring that only authorized users can access certain functionalities.
+    - Admin Authentication: Separate authentication for admin users, allowing them to manage the pet shop's content securely.
 
     
 3) Technology Stack
